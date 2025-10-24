@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jiaxuan | Lab 2 Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Responsive Navbar -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Jiaxuan</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#summary">Summary Table</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Fullscreen Video Hero (W3Schools "How To" style: video background) -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/images/placeholder-poster.jpg">
+      <source src="assets/video/bg.mp4" type="video/mp4" />
+      <!-- Fallback if video not present -->
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to <em>my wiki</em> → now a website</h1>
+      <p>Hello! I’m <strong>Jiaxuan</strong>. This page is published via GitHub Pages.</p>
+      <a class="btn" href="https://github.com/a1786847133" target="_blank" rel="noopener">My GitHub</a>
+      <a class="btn btn-alt" href="https://canvas.uw.edu/" target="_blank" rel="noopener">UW Canvas</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- Image block -->
+    <section>
+      <h2>Image: Suzzallo Library</h2>
+      <figure class="image-card">
+        <img src="assets/images/MK03214_University_of_Washington_Suzzallo_Library.jpg" alt="Suzzallo Library" />
+        <figcaption>An image for Suzzallo Library!</figcaption>
+      </figure>
+    </section>
+
+    <!-- Responsive Cards (W3Schools Meet the Team style) -->
+    <section>
+      <h2>Highlights</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Week 1</h3>
+          <p>Set up GitHub and learned HTML basics.</p>
+        </article>
+        <article class="card">
+          <h3>Week 2</h3>
+          <p>Explored CSS layouts and responsive design.</p>
+        </article>
+        <article class="card">
+          <h3>Week 3</h3>
+          <p>Added JavaScript interactivity and components.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Lists -->
+    <section>
+      <h2>Weekly Progress</h2>
+      <ul class="checklist">
+        <li>Week 1</li>
+        <li>Week 2</li>
+        <li>Week 3</li>
+      </ul>
+      <p><strong>Tiny Header (different font)</strong> <em>different font style</em>, <i>Data</i>, <b>Geography</b></p>
+    </section>
+
+    <!-- Summary Table (W3Schools "How To" sortable table style) -->
+    <section id="summary">
+      <h2>Summary Table</h2>
+      <p>This table summarizes key pieces from my topic, similar to a mini‑Wikipedia infobox.</p>
+      <div class="table-wrap">
+        <table id="infoTable">
+          <thead>
+            <tr>
+              <th data-sort="text">Item</th>
+              <th data-sort="text">Description</th>
+              <th data-sort="num">Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Repository</td><td>GitHub repo initialized</td><td>3</td></tr>
+            <tr><td>GitHub Pages</td><td>Pages enabled, public URL live</td><td>3</td></tr>
+            <tr><td>Responsive Navbar</td><td>Hamburger + active/hover colors</td><td>6</td></tr>
+            <tr><td>Custom Styles</td><td>Video hero, cards, accordion, sortable table</td><td>21</td></tr>
+            <tr><td>Multimedia</td><td>Video background + image</td><td>6</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Accordion (W3Schools "How To" accordion) -->
+    <section id="faq">
+      <h2>FAQ</h2>
+      <button class="accordion">Where is the source code?</button>
+      <div class="panel"><p>In your GitHub repository for Lab 2.</p></div>
+
+      <button class="accordion">How do I deploy?</button>
+      <div class="panel"><p>Push to your repo and enable GitHub Pages on the <em>main</em> branch (root).</p></div>
+
+      <button class="accordion">Can I customize colors?</button>
+      <div class="panel"><p>Yes — update the CSS variables in <code>styles.css</code>.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Jiaxuan — Lab 2</p>
+  </footer>
+</body>
+</html>
