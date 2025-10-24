@@ -9,6 +9,7 @@
 </head>
 <body>
 
+  <!-- Header / Navbar -->
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="index.html">Jiaxuan</a>
@@ -16,115 +17,109 @@
       <ul class="nav-links">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#summary">Summary Table</a></li>
+        <li><a href="#summary">Suzzallo Facts</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline poster="assets/images/placeholder-poster.jpg">
-      <source src="asssets/video/bg.mp4" type="video/mp4" />
-    </video>
+  <!-- Simple Hero (no video) -->
+  <section class="hero" style="height: 40vh;">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>Welcome to <em>my wiki</em> → now a website</h1>
-      <p>Hello! I’m <strong>Jiaxuan</strong>. This page is published via GitHub Pages.</p>
-      <a class="btn" href="https://github.com/a1786847133" target="_blank" rel="noopener">My GitHub</a>
-      <a class="btn btn-alt" href="https://canvas.uw.edu/" target="_blank" rel="noopener">UW Canvas</a>
+      <h1>Suzzallo Library at UW</h1>
+      <p>A quick, responsive site for Lab 2 — HTML, CSS, and JavaScript.</p>
     </div>
   </section>
 
   <main class="container">
+    <!-- Image -->
     <section>
-  <h2>Image: Suzzallo Library</h2>
-  <figure class="image-card">
-    <img
-      src="assets/images/MK03214_University_of_Washington_Suzzallo_Library.jpg"
-      alt="Suzzallo Library exterior at the University of Washington"
-      loading="lazy"
-    />
-    <figcaption>An image of Suzzallo Library.</figcaption>
-  </figure>
-</section>
-
-    <section>
-  <h2>Suzzallo Highlights</h2>
-  <div class="card-grid">
-    <article class="card">
-      <h3>History</h3>
-      <p>Opened in 1926 and named for UW president Henry Suzzallo.</p>
-    </article>
-
-    <article class="card">
-      <h3>Architecture</h3>
-      <p>Collegiate Gothic by Bebb &amp; Gould—stained glass, stone tracery, tall lancet windows.</p>
-    </article>
-
-    <article class="card">
-      <h3>Must-See</h3>
-      <ul>
-        <li>Graduate Reading Room</li>
-        <li>Grand façade on Red Square</li>
-        <li>Ornate woodwork &amp; carvings</li>
-      </ul>
-    </article>
-  </div>
-</section>
-
-    <section>
-      <h2>Weekly Progress</h2>
-      <ul class="checklist">
-        <li>Week 1</li>
-        <li>Week 2</li>
-        <li>Week 3</li>
-      </ul>
-      <p><strong>Tiny Header (different font)</strong> <em>different font style</em>, <i>Data</i>, <b>Geography</b></p>
+      <h2>Image: Suzzallo Library</h2>
+      <figure class="image-card">
+        <img
+          src="assets/images/MK03214_University_of_Washington_Suzzallo_Library.jpg"
+          alt="Suzzallo Library exterior at the University of Washington"
+          loading="lazy"
+        />
+        <figcaption>An image of Suzzallo Library.</figcaption>
+      </figure>
     </section>
 
-   <section id="summary">
-  <h2>Suzzallo Library — Quick Facts</h2>
-  <p>A mini infobox about the University of Washington’s Suzzallo Library.</p>
-  <div class="table-wrap">
-    <table id="infoTable">
-      <thead>
-        <tr>
-          <th data-sort="text">Item</th>
-          <th data-sort="text">Detail</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Name</td><td>Suzzallo Library (UW Seattle)</td></tr>
-        <tr><td>Location</td><td>Red Square, University of Washington</td></tr>
-        <tr><td>Architects</td><td>Bebb &amp; Gould</td></tr>
-        <tr><td>Architectural Style</td><td>Collegiate Gothic</td></tr>
-        <tr><td>Opened</td><td>1926</td></tr>
-        <tr><td>Iconic Space</td><td>Graduate Reading Room (vaulted, cathedral-like hall)</td></tr>
-        <tr><td>Notable Features</td><td>Stained glass, ornate windows, decorative stonework</td></tr>
-        <tr><td>Fun Fact</td><td>Often called the “soul of the University.”</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
+    <!-- Highlights -->
+    <section>
+      <h2>Suzzallo Highlights</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>History</h3>
+          <p>Opened in 1926 and named for UW president Henry Suzzallo.</p>
+        </article>
 
-  <section id="faq">
-  <h2>Suzzallo Library — FAQ</h2>
+        <article class="card">
+          <h3>Architecture</h3>
+          <p>Collegiate Gothic by Bebb &amp; Gould—stained glass, stone tracery, tall lancet windows.</p>
+        </article>
 
-  <button class="accordion">Where is Suzzallo Library?</button>
-  <div class="panel"><p>On UW Seattle’s Red Square, at the heart of campus.</p></div>
+        <article class="card">
+          <h3>Must-See</h3>
+          <ul>
+            <li>Graduate Reading Room</li>
+            <li>Grand façade on Red Square</li>
+            <li>Ornate woodwork &amp; carvings</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-  <button class="accordion">What’s the big hall called?</button>
-  <div class="panel"><p>The Graduate Reading Room—famous for its vaulted, cathedral-like space.</p></div>
+    <!-- Suzzallo Quick Facts -->
+    <section id="summary">
+      <h2>Suzzallo Library — Quick Facts</h2>
+      <p>A mini infobox about the University of Washington’s Suzzallo Library.</p>
+      <div class="table-wrap">
+        <table id="infoTable">
+          <thead>
+            <tr>
+              <th data-sort="text">Item</th>
+              <th data-sort="text">Detail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Name</td><td>Suzzallo Library (UW Seattle)</td></tr>
+            <tr><td>Location</td><td>Red Square, University of Washington</td></tr>
+            <tr><td>Architects</td><td>Bebb &amp; Gould</td></tr>
+            <tr><td>Architectural Style</td><td>Collegiate Gothic</td></tr>
+            <tr><td>Opened</td><td>1926</td></tr>
+            <tr><td>Iconic Space</td><td>Graduate Reading Room (vaulted, cathedral-like hall)</td></tr>
+            <tr><td>Notable Features</td><td>Stained glass, ornate windows, decorative stonework</td></tr>
+            <tr><td>Fun Fact</td><td>Often called the “soul of the University.”</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-  <button class="accordion">What architectural style is it?</button>
-  <div class="panel"><p>Collegiate Gothic with ornate stonework and stained glass.</p></div>
+    <!-- FAQ -->
+    <section id="faq">
+      <h2>Suzzallo Library — FAQ</h2>
 
-  <button class="accordion">Is it open to visitors?</button>
-  <div class="panel"><p>Policies can change—check the UW Libraries website for current visitor access and requirements.</p></div>
+      <button class="accordion">Where is Suzzallo Library?</button>
+      <div class="panel"><p>On UW Seattle’s Red Square, at the heart of campus.</p></div>
 
-  <button class="accordion">Can I take photos inside?</button>
-  <div class="panel"><p>Be respectful of study areas and follow posted guidelines; check UW Libraries for any restrictions.</p></div>
-</section>
-    
+      <button class="accordion">What’s the big hall called?</button>
+      <div class="panel"><p>The Graduate Reading Room—famous for its vaulted, cathedral-like space.</p></div>
+
+      <button class="accordion">What architectural style is it?</button>
+      <div class="panel"><p>Collegiate Gothic with ornate stonework and stained glass.</p></div>
+
+      <button class="accordion">Is it open to visitors?</button>
+      <div class="panel"><p>Policies can change—check the UW Libraries website for current visitor access and requirements.</p></div>
+
+      <button class="accordion">Can I take photos inside?</button>
+      <div class="panel"><p>Be respectful of study areas and follow posted guidelines; check UW Libraries for any restrictions.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Jiaxuan — Lab 2</p>
+  </footer>
 </body>
 </html>
