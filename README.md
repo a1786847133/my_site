@@ -1,15 +1,15 @@
-# Lab 2 Website — Starter
+# Lab 2 Website
 
-This project meets the rubric items out of the box. Edit content to match your Lab 1 wiki.
+This website is a short introduction to Suzzallo Library.
 
 ## Repo structure
 ```
-lab2_site/
+my_site/
 ├─ index.html
 ├─ about.html
 ├─ styles.css
 ├─ script.js
 └─ assets/
-   ├─ images/
-     ├─ MK03214_University_of_Washington_Suzzallo_Library.jpg 
+└─ images/
+└─ MK03214_University_of_Washington_Suzzallo_Library.jpg
 ```
