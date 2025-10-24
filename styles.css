@@ -70,3 +70,31 @@ tbody tr:hover{background:rgba(255,255,255,.03);}
 .accordion.open::after{content:"–";}
 
 .site-footer{border-top:1px solid var(--border); padding:1.25rem; text-align:center; color:var(--muted);}
+
+.cta-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:1rem;
+  margin-bottom:1.5rem;
+}
+@media (max-width: 640px){
+  .cta-grid{ grid-template-columns: 1fr; }
+}
+.cta-card{
+  display:block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  box-shadow: 0 8px 24px rgba(0,0,0,.25);
+}
+.cta-card:hover{
+  transform: translateY(-2px);
+  border-color: var(--active);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.cta-card h3{ margin:0 0 .25rem; }
+.cta-card p{ margin:0; color: var(--muted); }
