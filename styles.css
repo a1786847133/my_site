@@ -66,8 +66,7 @@ tbody tr:hover{background:rgba(255,255,255,.03);}
 
 .accordion{width:100%; text-align:left; background:var(--card); border:1px solid var(--border); padding:1rem; border-radius:.75rem; margin:.5rem 0; color:var(--text); cursor:pointer;}
 .panel{max-height:0; overflow:hidden; transition:max-height .25s ease; background:rgba(255,255,255,.02); padding:0 1rem; border-left:3px solid var(--active);}
-
-.site-footer{border-top:1px solid var(--border); padding:1.25rem; text-align:center; color:var(--muted);}
-
 .accordion::after{content:"+"; float:right; font-weight:700; opacity:.7;}
 .accordion.open::after{content:"–";}
+
+.site-footer{border-top:1px solid var(--border); padding:1.25rem; text-align:center; color:var(--muted);}
