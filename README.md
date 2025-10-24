@@ -11,10 +11,7 @@ lab2_site/
 ├─ script.js
 └─ assets/
    ├─ images/
-   │  ├─ MK03214_University_of_Washington_Suzzallo_Library.jpg  (add this file here)
-   │  └─ placeholder-poster.jpg (optional poster image)
-   └─ video/
-      └─ bg.mp4  (place a short, small MP4 here)
+     ├─ MK03214_University_of_Washington_Suzzallo_Library.jpg 
 ```
 
 ## Customize colors
