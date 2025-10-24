@@ -17,16 +17,15 @@ document.querySelectorAll('.nav-links a').forEach(a=>{
   });
 });
 
-// Accordion behavior
 document.querySelectorAll('.accordion').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     const panel = btn.nextElementSibling;
     const isOpen = panel.style.maxHeight && panel.style.maxHeight !== '0px';
     panel.style.maxHeight = isOpen ? '0' : panel.scrollHeight + 'px';
+    btn.classList.toggle('open', !isOpen); // <-- add this line
   });
 });
 
-// Sortable table (simple)
 function sortTableBy(columnIndex, type='text'){
   const table = document.getElementById('infoTable');
   const tbody = table.tBodies[0];
